@@ -1,11 +1,11 @@
 var guidebookConfig = function($routeProvider) {
     $routeProvider
         .when('/', {
-            controller: 'chaptersController',
-            templateUrl: 'view/chatpers.html'
+            controller: 'chapterController',
+            templateUrl: 'view/chapters.html'
         })
         .when('/chapter/:chapterId', {
-            controller: 'chaptersController',
+            controller: 'chapterController',
             templateUrl: 'view/chapters.html'
         })
         .when('/addNote/:chapterId', {
