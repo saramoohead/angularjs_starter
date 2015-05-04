@@ -1,4 +1,4 @@
-Guidebook.service('NoteModel',function () {
+Guidebook.service('noteModel',function () {
     this.getNotesForChapter = function(chapterId) {
         var chapter = JSON.parse(window.localStorage.getItem(chapterId));
         if (!chapter) {
